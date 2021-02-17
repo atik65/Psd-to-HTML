@@ -1,0 +1,280 @@
+
+/*==================
+ common css 
+ ==================*/
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+
+ }
+
+
+ /* ==============
+ top header css
+ ================ */
+.top-header{
+    height: 5px;
+    width: 100%;
+    background-color:#76c38f ;
+}
+
+/* =====================
+article css
+===================== */
+
+article{
+ 
+}
+
+/*=-================
+headeer css
+=============== */
+
+
+header{
+   
+    width: 960px;
+    margin: 0 auto;
+}
+.full-header{
+    background-image: url(images/joe-caione-9JpNOM6ul8U-unsplash.jpg);
+    background-size: cover;
+  
+}
+.head1{
+    display: grid;
+    grid-template-columns: 420px  auto;
+    height: 122px;
+   
+    
+}
+
+.head1-left{
+    
+    margin: auto 0;
+}
+
+.head1-right{
+    margin: auto 0;
+    margin-left: 0;
+    text-align: right;
+}
+.head1-right ul li:last-child {
+    padding-right: 0;
+    
+}
+
+.head1-right li{
+display: inline-block;
+position: relative;
+text-transform: uppercase;
+font-size: 13px;
+padding:  8px;
+}
+
+
+
+.head1-right ul ul{
+    position: absolute;
+    width: 100px;
+    display: none;
+    text-align: left;
+   
+}
+.head1-right ul ul li{
+    display: block;
+    padding: 4px 5px;
+    margin-top: 4px;
+    
+    
+}
+
+.head1-right ul ul li a{
+    
+}
+
+.head1-right li:hover{
+    transition: 0.3s;
+    background-color:#76c38f ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.head1-right ul li:hover > ul {
+   display: block;
+  
+}
+
+
+.head1-right a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.head2{
+    display: grid;
+    grid-template-columns: auto auto;
+   padding-bottom: 50px;
+}
+
+.head2-right img{
+    
+    width: 380px;
+    height: 380px;
+    border: 10px solid #6b6b6b;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.head2-right{
+    padding-right: 60px;
+}
+
+.head2-left{
+    color: #ffffff;
+    margin: auto 0;
+    font-size: 13px;
+    padding: 0 60px;
+}
+
+.head2-left h1{
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.head2-left  a{
+    color: #ffffff;
+    text-decoration: none;
+    background-color:#76c38f ;
+    padding: 8px 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/* =========================
+main div style
+======================= */
+
+.main{
+    width: 960px;
+  
+   margin: 0 auto;
+}
+
+.full-main{
+
+    background-image: url(images/joe-caione-9JpNOM6ul8U-unsplash.jpg);
+    background-size: cover;
+
+}
+
+.main-top{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    padding: 50px 0;
+}
+
+.main-top img{
+    width: 120px;
+    height: 120px;
+}
+
+.main-top > div
+{
+    background-color: #ffffff;
+    padding: 22px 52px;
+}
+
+.main-top > div:hover
+{
+    transition: 0.3s;
+    background-color: #76c38f;
+    color: #ffffff;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.main-top > div > p{
+    font-size: 13px;
+}
+
+.main-top > div > h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.line{
+   position: relative;
+    border-top: solid 5px #353535;
+    margin-bottom: 20px;
+   
+}
+
+
+.line span{
+     position: absolute;
+    bottom: -22px;
+     left: 37%;
+    background-color: #353535;
+    font-size: 32px;
+    width: 256px;
+    height: 48px;
+    text-align: center;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.main-bottom{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 30px 0 60px 0;
+}
+
+.main-bottom > div {
+border: 4px solid #ffffff;   
+text-align: center;
+}
+
+.main-bottom > div > a > img{
+    width: 300px;
+    height: 190px;
+    margin-bottom: 0;
+
+}
+
+.main-bottom > div > h2{
+    
+   
+    color: white;
+    margin-top: -4px;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #151515;
+}
+
+.main-bottom > div:hover > h2{
+    display: none;
+}
